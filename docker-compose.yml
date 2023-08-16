@@ -1,0 +1,11 @@
+version: '2'
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/Dockerfile
+    container_name: portfolio
+    ports:
+      - "4200:4200"
+    volumes:
+        - ./portfolio/:/usr/src/app
