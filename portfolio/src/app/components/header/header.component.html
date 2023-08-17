@@ -1,58 +1,58 @@
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="home p-1 rounded">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item p-1 rounded">
-                    <a class="nav-link smooth-scroll text-uppercase" href="#"><i class='bx bx-home'></i> {{header.home}}
-                    </a>
+                    <a class="navbar-brand nav-link smooth-scroll text-uppercase" href="#"><i class='bx bx-home'></i> {{header.home}}</a>
                 </li>
             </ul>
-        </div>
-        <button class="navbar-toggler nav mb-1">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-            <div style="width: 100%; float: right;" class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" style=" float: right;">
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#about"><i
-                                class='bx bx-user'></i> {{header.about}}
+                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#about">
+                            <i class='bx bx-user'></i> 
+                            {{header.about}}
                         </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#skills"><i
-                                class='bx bx-briefcase-alt'></i>{{header.skills}}</a>
+                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#skills">
+                            <i class='bx bx-briefcase-alt'></i>
+                            {{header.skills}}
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#cv"> <i
-                                class='bx bx-file-blank'></i>CV</a>
+                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#cv"> 
+                            <i class='bx bx-file-blank'></i>
+                            CV
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#portfolio"> <i
-                                class='bx bx-book-content'></i>Portfolio</a>
+                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#portfolio"> 
+                            <i class='bx bx-book-content'></i>
+                            Portfolio
+                        </a>
                     </li>
                     <li class="nav-item p-1 rounded">
-                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#contact"> <i
-                                class='bx bx-envelope'></i>{{header.contactMe}}</a>
+                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#contact"> 
+                            <i class='bx bx-envelope'></i>
+                            {{header.contactMe}}
+                        </a>
+                    </li>
+                    <li class="nav-item p-1 rounded">
+                        <mat-radio-group  [(ngModel)]="language" (change)="onlanguagechange($event)" aria-label="Select a language">
+                            <mat-radio-button value="en" >
+                                English
+                            </mat-radio-button>
+                            <mat-radio-button value="es" class="pl-3">
+                                Español
+                            </mat-radio-button>
+                        </mat-radio-group>
                     </li>
                 </ul>
             </div>
-        </div>
-        <div class="container">
-            
-            <ul>
-                <li class="nav-item p-1 rounded lang">
-                    <mat-radio-group  [(ngModel)]="language" style="margin-top: 5px;"
-                        (change)="onlanguagechange($event)" aria-label="Select a language">
-                        <mat-radio-button value="en" >
-                            English
-                        </mat-radio-button>
-                        <mat-radio-button value="es" class="pl-3">
-                            Español
-                        </mat-radio-button>
-                    </mat-radio-group>
-                </li>
-            </ul>
         </div>
     </nav>
 </header>
