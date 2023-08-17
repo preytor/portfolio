@@ -11,7 +11,7 @@
         <button class="navbar-toggler nav mb-1">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="container ">
+        <div class="container">
             <div style="width: 100%; float: right;" class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" style=" float: right;">
                     <li class="nav-item p-1 rounded">
@@ -35,19 +35,24 @@
                         <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#contact"> <i
                                 class='bx bx-envelope'></i>{{header.contactMe}}</a>
                     </li>
-                    <li class="nav-item p-1 rounded">
-                        <mat-radio-group  [(ngModel)]="language" style="margin-top: 5px;"
-                            (change)="onlanguagechange($event)" aria-label="Select a language">
-                            <mat-radio-button value="en" >
-                                English
-                            </mat-radio-button>
-                            <mat-radio-button value="es" class="pl-3">
-                                Español
-                            </mat-radio-button>
-                        </mat-radio-group>
-                    </li>
                 </ul>
             </div>
+        </div>
+        <div class="container">
+            
+            <ul>
+                <li class="nav-item p-1 rounded lang">
+                    <mat-radio-group  [(ngModel)]="language" style="margin-top: 5px;"
+                        (change)="onlanguagechange($event)" aria-label="Select a language">
+                        <mat-radio-button value="en" >
+                            English
+                        </mat-radio-button>
+                        <mat-radio-button value="es" class="pl-3">
+                            Español
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </li>
+            </ul>
         </div>
     </nav>
 </header>

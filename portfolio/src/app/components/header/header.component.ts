@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Language } from 'src/app/utils/Language';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationLoaderService } from 'src/app/services/translation-loader.service';
 import { locale as english } from '../../shared/i18n/en';

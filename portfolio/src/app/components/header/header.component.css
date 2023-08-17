@@ -34,3 +34,6 @@ li{
   display: inline-flex;
 }
 
+.lang{
+  float: right;
+}
