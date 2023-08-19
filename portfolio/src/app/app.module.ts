@@ -8,12 +8,16 @@ import { HeaderComponent } from './components/header/header.component';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
