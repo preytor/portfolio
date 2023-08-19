@@ -3,6 +3,7 @@ export const locale = {
     data: {
         'header': {
             'home': 'Home',
+            'experience': 'Experience',
             'about': 'About',
             'skills': 'Skills',
             'contactMe': 'Contact me',
