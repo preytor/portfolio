@@ -37,3 +37,7 @@ li{
 .lang{
   float: right;
 }
+
+header{
+  padding: 40px 0px;
+}

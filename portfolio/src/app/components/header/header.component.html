@@ -18,8 +18,14 @@
                         </a>
                     </li>
                     <li class="nav-item p-1 rounded">
+                        <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#experience">
+                            <i class='bx bx-briefcase'></i>
+                            {{'header.experience' | translate}}
+                        </a>
+                    </li>
+                    <li class="nav-item p-1 rounded">
                         <a class="nav-link js-scroll-trigger smooth-scroll text-uppercase" href="#skills">
-                            <i class='bx bx-briefcase-alt'></i>
+                            <i class='bi bi-journal-code'></i>
                             {{'header.skills' | translate}}
                         </a>
                     </li>
@@ -43,7 +49,7 @@
                     </li>
                     <li class="nav-item p-1 rounded">
                         <mat-radio-group  [(ngModel)]="language" (change)="onlanguagechange($event)" aria-label="Select a language">
-                            <mat-radio-button value="en" >
+                            <mat-radio-button value="en" [checked]="true">
                                 English
                             </mat-radio-button>
                             <mat-radio-button value="es" class="pl-3">
