@@ -7,12 +7,5 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "Pablo's Portfolio | Software Developer";
-  currentYear:number;
-  constructor(private _translateService: TranslateService) {
-    this._translateService.addLangs(['en', 'es']);
-    this._translateService.setDefaultLang('en');
-    this.currentYear=new Date().getFullYear();
-  }
-  
+  title = "Pablo's Portfolio | Software Developer";  
 }
