@@ -1,0 +1,46 @@
+<section id="experience">
+    <div class="container">
+        <div class="row">
+            <h2><strong>{{'experiences.title' | translate}}</strong></h2>
+            <span class="bar-title mb-5"></span>
+            <div class="col-sm-8" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>{{'experiences.subTitle' | translate}}</strong></h4>
+                <ul class="timeline">
+                    <li *ngFor="let company of companies;">
+                        <h5>{{company.title}}</h5>
+                        <img [src]="company.image" class="companyImage"/><em>{{company.company}}</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">{{company.period}}</p>
+                            <button (click)="detailOnClick(company)" type="button"
+                                class="btn btn-primary">
+                                <span *ngIf="!company.detailIsDisplayed">+</span><span *ngIf="company.detailIsDisplayed">-</span> {{'experiences.detail' | translate}}</button>
+                        </div>
+                        <p *ngIf="company.detailIsDisplayed">
+                            <span *ngFor="let mission of company.missions;let index = index">
+                                <strong>{{'experiences.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
+                            </span>
+                            <strong>{{'experiences.technologies' | translate}}:</strong> {{company.technologies}}
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="container row">
+                    <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>{{'languages.languages' | translate}}</strong></h4>
+                        <div class="noProgress langue">
+                            <span class=""><i class="fi fi-es" alt="icon spanish flag"></i><strong> {{'languages.spanish' | translate}}</strong> 
+                                <i class="val"> {{'languages.native' | translate}}</i>
+                            </span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span class=""><i class="fi fi-us"alt="icon american flag"></i><strong> {{'languages.english' | translate}}</strong> 
+                                <i class="val"> {{'languages.fluent' | translate}}</i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

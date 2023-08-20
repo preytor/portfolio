@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { AboutComponent } from './components/about/about.component';
     MainComponent,
     HeaderComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    SkillsComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
