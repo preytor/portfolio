@@ -34,6 +34,13 @@ export const locale = {
             'native': 'Native',
             'fluent': 'Fluent',
         },
+        'projects': {
+            'title': 'Projects',
+            'subTitle': 'My projects',
+            'technologies': 'Technologies',
+            'sourceCode': 'Source code',
+            'detail': 'Detail',
+        },
         'footer': {
             'by': 'by',
         },
