@@ -35,7 +35,7 @@ export class ExperienceComponent {
     }
   }
 
-  detailOnClick(experience: any) {
+  detailOnClick(experience: experiencesInterface) {
     experience.detailIsDisplayed = !experience.detailIsDisplayed;
   }
 }
