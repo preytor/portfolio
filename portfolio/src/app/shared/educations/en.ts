@@ -1,0 +1,38 @@
+export const educationsEn = [
+    {
+        title: "PCAP – Certified Associate in Python Programming",
+        place: 'Python Institute',
+        period: "2022",
+        technologies: 'Python',
+        missions: [
+            "modules, packages, and PIP", 
+            "character encoding, strings and string processing", 
+            "generators, iterators, closures", 
+            "files, file streams, and file processing", 
+            "exception hierarchies, and exception classes and objects", 
+            "working with selected Standard Library modules",
+            "fundamentals of the Object-Oriented Programming (OOP) approach.",
+            "Certification can be validated here: https://verify.openedg.org/ with the code JK8q.CM8y.zs6W",
+        ],
+        detailIsDisplayed: false,
+    },
+    {
+        title: "Senior Technician in Web Application Development",
+        place: 'CIFP Ponferrada',
+        period: "2019 - 2021",
+        technologies: 'HTML, CSS, Java, JavaScript, SQL, PHP',
+        missions: [
+            "Configure and operate computer systems, adapting the logical configuration of the system according to the needs of use and the established criteria.",
+            "Apply techniques and procedures related to security in systems, services and applications, complying with the security plan.",
+            "Manage application servers adapting their configuration in each case to allow the deployment of web applications.",
+            "Manage databases, interpreting their logical design and verifying data integrity, consistency, security and accessibility.",
+            "Develop web applications with access to databases using languages, access objects and mapping tools appropriate to the specifications.",
+            "Integrate content into the logic of a web application, developing data access components appropriate to the specifications.",
+            "Develop interfaces in web applications according to a style manual, using markup languages and web standards.",
+            "Develop multimedia components for integration into web applications, using specific tools and following the established specifications.",
+            "Integrate multimedia components in the interface of a web application, performing the interactivity, accessibility and usability analysis of the application.",
+            "Develop services to integrate their functions into other web applications, ensuring their functionality.",
+        ],
+        detailIsDisplayed: false,
+    },
+];

@@ -41,6 +41,15 @@ export const locale = {
             'sourceCode': 'Source code',
             'detail': 'Detail',
         },
+        'education': {
+            'title': 'Education',
+            'subTitle': 'My education',
+            'place': 'Place',
+            'period': 'Period',
+            'detail': 'Details',
+            'mission': 'Mission',
+            'technologies': 'Technologies',
+        },
         'footer': {
             'by': 'by',
         },

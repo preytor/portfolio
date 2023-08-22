@@ -1,0 +1,38 @@
+export const educationsEs = [
+    {
+        title: "PCAP – Certified Associate in Python Programming",
+        place: 'Python Institute',
+        period: "2022",
+        technologies: 'Python',
+        missions: [
+            "módulos, paquetes y PIP",
+            "codificación de caracteres, cadenas y procesamiento de cadenas",
+            "generadores, iteradores, cierres",
+            "archivos, secuencias de archivos y procesamiento de archivos",
+            "jerarquías de excepciones y clases y objetos de excepción",
+            "trabajar con módulos de biblioteca estándar seleccionados",
+            "Fundamentos del enfoque de programación orientada a objetos (POO).",
+            "La Certificación puede ser validada aquí: https://verify.openedg.org/ con el código JK8q.CM8y.zs6W",
+        ],
+        detailIsDisplayed: false,
+    },
+    {
+        title: "Técnico Superior en Desarrollo de Aplicaciones Web",
+        place: 'CIFP Ponferrada',
+        period: "2019 - 2021",
+        technologies: 'HTML, CSS, Java, JavaScript, SQL, PHP',
+        missions: [
+            "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.",
+            "Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad.",
+            "Gestionar servidores de aplicaciones adaptando su configuración en cada caso para permitir el despliegue de aplicaciones web.",
+            "Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos.",
+            "Desarrollar aplicaciones web con acceso a bases de datos utilizando lenguajes, objetos de acceso y herramientas de mapeo adecuados a las especificaciones.",
+            "Integrar contenidos en la lógica de una aplicación web, desarrollando componentes de acceso a datos adecuados a las especificaciones.",
+            "Desarrollar interfaces en aplicaciones web de acuerdo con un manual de estilo, utilizando lenguajes de marcas y estándares web.",
+            "Desarrollar componentes multimedia para su integración en aplicaciones web, empleando herramientas específicas y siguiendo las especificaciones establecidas.",
+            "Integrar componentes multimedia en el interface de una aplicación web, realizando el análisis de interactividad, accesibilidad y usabilidad de la aplicación.",
+            "Desarrollar servicios para integrar sus funciones en otras aplicaciones web, asegurando su funcionalidad.",
+        ],
+        detailIsDisplayed: false,
+    },
+];
