@@ -6,6 +6,7 @@ export const locale = {
             'experience': 'Experience',
             'about': 'About',
             'skills': 'Skills',
+            'education': 'Education',
             'contactMe': 'Contact me',
         },
         'about': {
