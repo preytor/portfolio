@@ -1,1 +1,22 @@
-<p>skills works!</p>
+<div id="skills">
+    <div class="container">
+        <div class="row">
+            <h2><strong>{{'skills.title' | translate}}</strong></h2>
+            <span class="bar-title mb-5"></span>
+            <div class="col-sm-8" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>{{'skills.subTitle' | translate}}</strong></h4>
+                <h5>{{'skills.description' | translate}}</h5>
+                <div class="container">
+                    <div class="row" *ngFor="let skill of skills;">
+                        <p></p>
+                        <h3><strong>{{skill.title}}</strong></h3>
+                        <div class="col" *ngFor="let technology of skill.technologies;">
+                            <img src="{{technology.src}}" alt="{{technology.name}}" id="{{technology.name}}-img" class="img-wrap" style="width: 80px; height: 80px;"/>
+                            <h6>{{technology.name}}</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
