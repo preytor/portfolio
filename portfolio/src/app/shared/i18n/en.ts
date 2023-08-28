@@ -9,6 +9,11 @@ export const locale = {
             'education': 'Education',
             'contactMe': 'Contact me',
         },
+        'main': {
+            'job-role': 'Software Engineer',
+            'message-me': 'Message me',
+            'download-cv': 'Download CV',
+        },
         'about': {
             'title': 'About',
             'jobTitle': 'Passionated Software Engineer with passion on learning new technologies and challenge my knowledge.',
