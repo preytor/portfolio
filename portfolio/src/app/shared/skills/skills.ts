@@ -65,4 +65,18 @@ export const skills = [
         ],
         detailIsDisplayed: false,
     },
+    {
+        title: "Others",
+        technologies: [
+            {
+                name: "Git",
+                src: "assets/images/skills/git.png",
+            },
+            {
+                name: "Docker",
+                src: "assets/images/skills/docker.png",
+            },
+        ],
+        detailIsDisplayed: false,
+    }
 ];
