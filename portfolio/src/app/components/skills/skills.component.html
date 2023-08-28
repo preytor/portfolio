@@ -1,4 +1,4 @@
-<div id="skills">
+<div id="skills" class="section">
     <div class="container">
         <div class="row">
             <h2><strong>{{'skills.title' | translate}}</strong></h2>
@@ -11,8 +11,11 @@
                         <p></p>
                         <h3><strong>{{skill.title}}</strong></h3>
                         <div class="col" *ngFor="let technology of skill.technologies;">
-                            <img src="{{technology.src}}" alt="{{technology.name}}" id="{{technology.name}}-img" class="img-wrap" style="width: 80px; height: 80px;"/>
-                            <h6>{{technology.name}}</h6>
+                            
+                            <div class="card" style="width: 100px;">
+                                <img src="{{technology.src}}" alt="{{technology.name}}" id="{{technology.name}}-img" class="img-wrap card-img-top" style="width: 80px; height: 80px;"/>
+                                <h6>{{technology.name}}</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
