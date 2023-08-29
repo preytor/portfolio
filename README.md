@@ -1,2 +1,2 @@
 # portfolio
-My personal website using Angular 14
+My personal website using Angular 16
