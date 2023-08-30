@@ -29,4 +29,12 @@ li.active{
     right: 0;
     text-align: center;
 }
-  
+
+.options {
+    text-align: center;
+}
+
+.options a {
+    color: white;
+    margin: 0 1rem;
+}

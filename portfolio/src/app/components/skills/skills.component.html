@@ -1,20 +1,23 @@
-<div id="skills" class="section">
-    <div class="container">
-        <div class="row">
-            <h2><strong>{{'skills.title' | translate}}</strong></h2>
+<div id="skills" class="container section">
+    <div class="card aos-init aos-animate">
+        <div class="card-body">
+            <h2 class="card-title"><strong>{{'skills.title' | translate}}</strong></h2>
             <span class="bar-title mb-5"></span>
-            <div class="col-sm-8" data-aos="fade-up" data-aos-delay="300">
-                <h4><strong>{{'skills.subTitle' | translate}}</strong></h4>
+            <div class="card-text col-sm" data-aos="fade-up" data-aos-delay="300">
+                <h3><strong>{{'skills.subTitle' | translate}}</strong></h3>
                 <h5>{{'skills.description' | translate}}</h5>
+                <h5>{{'skills.description2' | translate}}</h5>
                 <div class="container">
                     <div class="row" *ngFor="let skill of skills;">
                         <p></p>
                         <h3><strong>{{skill.title}}</strong></h3>
-                        <div class="col" *ngFor="let technology of skill.technologies;">
+                        <div class="col-md-auto" *ngFor="let technology of skill.technologies;">
                             
-                            <div class="card" style="width: 100px;">
-                                <img src="{{technology.src}}" alt="{{technology.name}}" id="{{technology.name}}-img" class="img-wrap card-img-top" style="width: 80px; height: 80px;"/>
-                                <h6>{{technology.name}}</h6>
+                            <div class="card card-skill">
+                                <div class="card-body">
+                                    <img src="{{technology.src}}" alt="{{technology.name}}" id="{{technology.name}}-img" class="img-wrap card-img-top" style="width: 80px; height: 80px;"/>
+                                    <h4 class="card-title">{{technology.name}}</h4>
+                                </div>
                             </div>
                         </div>
                     </div>

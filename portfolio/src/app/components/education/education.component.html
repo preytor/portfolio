@@ -1,28 +1,30 @@
-<section id="education" class="section">
-    <div class="container">
-        <div class="row">
-            <h2><strong>{{'education.title' | translate}}</strong></h2>
+<section id="education" class="container section">
+    <div class="card aos-init aos-animate">
+        <div class="card-body">
+            <h2 class="card-title"><strong>{{'education.title' | translate}}</strong></h2>
             <span class="bar-title mb-5"></span>
-            <div class="col-sm-8" data-aos="fade-up" data-aos-delay="300">
-                <h4><strong>{{'education.subTitle' | translate}}</strong></h4>
-                <ul class="timeline">
-                    <li *ngFor="let educ of educations;">
-                        <h5>{{educ.title}}</h5>
-                        <h6><i>{{educ.place}}</i></h6>
-                        <div class="d-flex flex-row">
-                            <p class="year p-2 d-flex justify-content-center">{{educ.period}}</p>
-                            <button (click)="detailOnClick(educ)" type="button"
-                                class="btn btn-primary">
-                                <span *ngIf="!educ.detailIsDisplayed">+</span><span *ngIf="educ.detailIsDisplayed">-</span> {{'education.detail' | translate}}</button>
-                        </div>
-                        <p *ngIf="educ.detailIsDisplayed">
-                            <span *ngFor="let mission of educ.missions;let index = index">
-                                <strong>{{'education.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
-                            </span>
-                            <strong>{{'education.technologies' | translate}}:</strong> {{educ.technologies}}
-                        </p>
-                    </li>
-                </ul>
+            <div class="card-text row">
+                <div class="col-sm-8" data-aos="fade-up" data-aos-delay="300">
+                    <h3><strong>{{'education.subTitle' | translate}}</strong></h3>
+                    <ul class="timeline">
+                        <li *ngFor="let educ of educations;">
+                            <h5>{{educ.title}}</h5>
+                            <h6><i>{{educ.place}}</i></h6>
+                            <div class="d-flex flex-row">
+                                <p class="year p-2 d-flex justify-content-center">{{educ.period}}</p>
+                                <button (click)="detailOnClick(educ)" type="button"
+                                    class="btn btn-primary">
+                                    <span *ngIf="!educ.detailIsDisplayed">+</span><span *ngIf="educ.detailIsDisplayed">-</span> {{'education.detail' | translate}}</button>
+                            </div>
+                            <p *ngIf="educ.detailIsDisplayed">
+                                <span *ngFor="let mission of educ.missions;let index = index">
+                                    <strong>{{'education.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
+                                </span>
+                                <strong>{{'education.technologies' | translate}}:</strong> {{educ.technologies}}
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
