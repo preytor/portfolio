@@ -40,6 +40,12 @@ export const locale = {
             'native': 'Nativo',
             'fluent': 'Fluido',
         },
+        'skills': {
+            'title': 'Habilidades',
+            'subTitle': 'Mis habilidades',
+            'description': 'I have experience in web development, data engineering and automation. I am passionate about learning new technologies and I am always looking for new challenges.',
+            'description2': ' These are the main technologies I have worked with.',
+        },
         'projects': {
             'title': 'Proyectos',
             'subTitle': 'Mis proyectos',
