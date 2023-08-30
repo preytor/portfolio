@@ -76,6 +76,10 @@ export const skills = [
                 name: "Docker",
                 src: "assets/images/skills/docker.png",
             },
+            {
+                name: "Kafka",
+                src: "assets/images/skills/kafka.png",
+            }
         ],
         detailIsDisplayed: false,
     }
