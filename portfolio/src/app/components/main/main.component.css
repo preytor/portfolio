@@ -1,6 +1,6 @@
 
 .page-home-image {
-    background-image: url("./assets/images/main.jpg");
+    background-image: url("assets/images/main.jpg");
     position: absolute;
     background-size: cover;
     background-position: center center;

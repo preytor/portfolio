@@ -13,7 +13,7 @@ export const experiencesEs = [
             "Installed all of the dependencies needed for the ETLs to run in the Red Hat Linux Enterprise server",
         ],
         detailIsDisplayed: false,
-        image: '/assets/images/cds.png',
+        image: 'assets/images/cds.png',
     },
     {
         title: "Business Application Engineer",
@@ -29,7 +29,7 @@ export const experiencesEs = [
             "Installed all of the dependencies needed for the ETLs to run in the Red Hat Linux Enterprise server",
         ],
         detailIsDisplayed: false,
-        image: '/assets/images/cds.png',
+        image: 'assets/images/cds.png',
     },
     {
         title: "Internship",
@@ -44,6 +44,6 @@ export const experiencesEs = [
             "Created a Springboot application using microservices architecture with kafka and MongoDB for a file upload/download application",
         ],
         detailIsDisplayed: false,
-        image: '/assets/images/cds.png',
+        image: 'assets/images/cds.png',
     },
 ];
