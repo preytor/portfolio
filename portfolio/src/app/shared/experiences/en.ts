@@ -6,8 +6,11 @@ export const experiencesEn = [
         technologies: 'Python, SQL Server, Red Hat Linux Enterprise',
         missions: [
             "Created a series of ETLs using python with SQLAlchemy to extract and process data from different sources (Apis,AD,Files,etc...) and load them into a SQL Server database",
+            "Optimized the scripts to run in multithreading and thus improve their performance",
+            "Written unit tests for the ETLs using pytest",
             "Designed and created different optimized tables and views in SQL Server to store data from the ETLs",
             "Optimized the tables and views by creating indexes and using partitioning to improve the performance of the queries",
+            "Created triggers and stored procedures in SQL Server to automate some tasks",
             "Deployed the ETLs in a Red Hat Linux Enterprise server using cron jobs to run them periodically",
             "Integrated the ETLs data with a PowerBi dashboard to display the data in a user friendly way",
             "Installed all of the dependencies needed for the ETLs to run in the Red Hat Linux Enterprise server",
@@ -22,6 +25,8 @@ export const experiencesEn = [
         technologies: 'Python, SQL Server, Red Hat Linux Enterprise',
         missions: [
             "Created a series of ETLs using python with SQLAlchemy to extract and process data from different sources (Apis,AD,Files,etc...) and load them into a SQL Server database",
+            "Optimized the scripts to run in multithreading and thus improve their performance",
+            "Written unit tests for the ETLs using pytest",
             "Designed and created different optimized tables and views in SQL Server to store data from the ETLs",
             "Optimized the tables and views by creating indexes and using partitioning to improve the performance of the queries",
             "Deployed the ETLs in a Red Hat Linux Enterprise server using cron jobs to run them periodically",
@@ -40,6 +45,7 @@ export const experiencesEn = [
             "Created a PowerApps application to demo a computer's shop",
             "Created a PowerAutomate flow to send an email when a new computer is added to the database",
             "Integrated the PowerApps application with a MSSQL database",
+            "Created a SSIS automation to load data from an Excel file to a MSSQL database",
             "Created a PowerBi dashboard to display millions of pre-generated data from people",
             "Created a Springboot application using microservices architecture with kafka and MongoDB for a file upload/download application",
         ],
