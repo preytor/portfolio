@@ -7,15 +7,31 @@
             <div class="row card-text">
                 <div class="col-md-auto " data-aos="flip-up" *ngFor="let project of projects;">
                     <div class="card shadow-lg p-3 mb-5 bg-white rounded">
-                        <div class="card-header d-flex flex-column " style="height: 300px;width: 100%; ">
-                            <div id="{{project.id}}-img" class="img-wrap" style="height: 300px;width: 100%;  "
-                                [ngStyle]="{'backgroundImage':'url('+project.images[0].src+')'}">
-                            </div>
-                            <div id="{{project.id}}-link" class="links mt-auto d-flex justify-content-center">
-                                <a *ngFor="let image of project.images;let index=index" href="{{image.src}}" data-gall="project.id"
-                                    class="venobox vbox-item" title="{{image.title}}"><i *ngIf="index==0" class="bx bx-zoom-in bx-md"></i></a>
-                                <a href="{{project.url}}"
-                                    title="" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+                        <div class="card-header d-flex flex-column">
+                            <!-- Carousel -->
+                            <div id="link-{{project.id}}" class="carousel slide" data-bs-ride="carousel" data-interval="false">
+
+                                <!-- Indicators/dots -->
+                                <div class="carousel-indicators">
+                                    <button type="button" [attr.data-bs-target]="'#link-'+project.id" data-bs-slide-to="0" class="active"></button>
+                                    <button type="button" [attr.data-bs-target]="'#link-'+project.id" data-bs-slide-to="1"></button>
+                                    <button type="button" [attr.data-bs-target]="'#link-'+project.id" data-bs-slide-to="2"></button>
+                                </div>
+                            
+                                <!-- The slideshow/carousel -->
+                                <div class="carousel-inner">
+                                    <div *ngFor="let image of project.images; let i=index" class="carousel-item" [class.active] = "i==0">
+                                        <img src="{{image.src}}" alt="Image {{i}}" class="d-block w-100"/>
+                                    </div>
+                                </div>
+                            
+                                <!-- Left and right controls/icons -->
+                                <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#link-'+project.id" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#link-'+project.id" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                </button>
                             </div>
                         </div>
                         <div class="card-body">

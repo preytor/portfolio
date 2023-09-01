@@ -21,15 +21,6 @@ li.active{
     position: relative;
 }
 
-.links{
-    opacity: 0;
-    position: absolute;
-    top: 30%;
-    left: 0;
-    right: 0;
-    text-align: center;
-}
-
 .options {
     text-align: center;
 }
@@ -37,4 +28,14 @@ li.active{
 .options a {
     color: white;
     margin: 0 1rem;
+}
+
+.card-header {
+    height: 250px;
+    width: 350px; 
+}
+
+img {
+    height: 250px;
+    width: 350px;
 }
