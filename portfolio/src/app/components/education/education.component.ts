@@ -19,7 +19,7 @@ export class EducationComponent {
   constructor(private _translationLoaderService: TranslationLoaderService, private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, spanish);
     this._translateService.onLangChange.subscribe(()=>{
-      if(this._translateService.currentLang=="en"){
+      if(this._translateService.store.currentLang=="en"){
         this.educations=educationsEn;
       } else{
         this.educations=educationsEs;
@@ -28,7 +28,7 @@ export class EducationComponent {
   }
 
   ngOnInit(): void {
-    if(this._translateService.currentLang=="en"){
+    if(localStorage.getItem("lang")=="en"){
       this.educations=educationsEn;
     } else{
       this.educations=educationsEs;

@@ -18,7 +18,7 @@
                             </div>
                             <p *ngIf="educ.detailIsDisplayed">
                                 <span *ngFor="let mission of educ.missions;let index = index">
-                                    <strong>{{'education.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
+                                    <strong>- </strong>{{mission}} <br>
                                 </span>
                                 <strong>{{'education.technologies' | translate}}:</strong> {{educ.technologies}}
                             </p>
