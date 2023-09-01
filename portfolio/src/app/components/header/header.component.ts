@@ -18,8 +18,14 @@ export class HeaderComponent {
     this._translationLoaderService.loadTranslations(english, spanish);
     if(localStorage.getItem("lang")) {
       this._translateService.setDefaultLang(this.language);
+      this._translateService.store.currentLang=this.language;
+      this._translateService.use(this.language);
+      localStorage.setItem("lang", this.language);
     } else {
       this._translateService.setDefaultLang('en');
+      this._translateService.store.currentLang='en';
+      this._translateService.use('en');
+      localStorage.setItem("lang", 'en');
     }
   }
 
@@ -28,5 +34,6 @@ export class HeaderComponent {
     localStorage.setItem("lang", lang);
     this._translateService.setDefaultLang(lang);
     this._translateService.use(lang);
+    this._translateService.currentLang=lang;
   }
 }
