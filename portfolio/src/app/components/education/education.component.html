@@ -14,7 +14,7 @@
                                 <p class="year p-2 d-flex justify-content-center">{{educ.period}}</p>
                                 <button (click)="detailOnClick(educ)" type="button"
                                     class="btn btn-primary">
-                                    <span *ngIf="!educ.detailIsDisplayed">+</span><span *ngIf="educ.detailIsDisplayed">-</span> {{'education.detail' | translate}}</button>
+                                    <span *ngIf="!educ.detailIsDisplayed">+</span><span *ngIf="educ.detailIsDisplayed">-</span>{{'education.detail' | translate}}</button>
                             </div>
                             <p *ngIf="educ.detailIsDisplayed">
                                 <span *ngFor="let mission of educ.missions;let index = index">
