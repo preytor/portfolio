@@ -19,7 +19,7 @@ export class ExperienceComponent {
   constructor(private _translationLoaderService: TranslationLoaderService, private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, spanish);
     this._translateService.onLangChange.subscribe(()=>{
-      if(this._translateService.currentLang=="en"){
+      if(localStorage.getItem("lang")=="en"){
         this.companies=experiencesEn;
       } else{
         this.companies=experiencesEs;
@@ -28,7 +28,7 @@ export class ExperienceComponent {
   }
 
   ngOnInit(): void {
-    if(this._translateService.currentLang=="en"){
+    if(localStorage.getItem("lang")=="en"){
       this.companies=experiencesEn;
     } else{
       this.companies=experiencesEs;
