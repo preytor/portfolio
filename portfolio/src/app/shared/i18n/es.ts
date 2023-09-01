@@ -10,19 +10,20 @@ export const locale = {
             'contactMe': 'Contacto',
         },
         'main': {
+            'name': 'Pablo Garcia Ramon',
             'job-role': 'Ingeniero de Software',
             'message-me': 'Envíame un mensaje',
             'download-cv': 'Descargar CV',
         },
         'about': {
             'title': 'Sobre mí',
-            'jobTitle': 'Desarrollador de software con experiencia en procesamiento de datos y web',
-            'introductionOfMe': 'Experience both as independent and as a team, I mostly worked as data engineer but I also have experience in web development.',
-            'passionateAboutDevelopment':'Passionate about development in Fullstack, Data and Automation.',
+            'jobTitle': 'Ingeniero de Software apasionado con pasión por aprender nuevas tecnologías y desafiar mis conocimientos.',
+            'introductionOfMe': 'Experiencia tanto como independiente como en equipo, trabajado principalmente como ingeniero de datos pero también tiene experiencia en desarrollo web.',
+            'passionateAboutDevelopment':'Apasionado por el desarrollo en Fullstack, Data y Automatización.',
             'mobility': 'Disponible en todo Canadá',
             'years': 'Años',
             'graduation': "2 años de estudios en FP de desarrollo y aplicaciones web",
-            'researchDescription': 'I am looking for a job in the field of web development or data.',
+            'researchDescription': 'Actualmente estoy buscando un trabajo en el campo del desarrollo web o de datos.',
             'followMeOn':'Sígueme en',
         },
         'experiences': {
@@ -43,8 +44,8 @@ export const locale = {
         'skills': {
             'title': 'Habilidades',
             'subTitle': 'Mis habilidades',
-            'description': 'I have experience in web development, data engineering and automation. I am passionate about learning new technologies and I am always looking for new challenges.',
-            'description2': ' These are the main technologies I have worked with.',
+            'description': 'Tengo experiencia en desarrollo web, ingeniería de datos y automatización. Me apasiona aprender nuevas tecnologías y siempre estoy buscando nuevos desafíos.',
+            'description2': ' Estas son las principales tecnologías con las que he trabajado.',
         },
         'projects': {
             'title': 'Proyectos',

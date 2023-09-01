@@ -10,6 +10,7 @@ export const locale = {
             'contactMe': 'Contact me',
         },
         'main': {
+            'name': 'Pablo Garcia',
             'job-role': 'Software Engineer',
             'message-me': 'Message me',
             'download-cv': 'Download CV',
@@ -17,12 +18,12 @@ export const locale = {
         'about': {
             'title': 'About',
             'jobTitle': 'Passionated Software Engineer with passion on learning new technologies and challenge my knowledge.',
-            'introductionOfMe': 'Experience both as independent and as a team, I mostly worked as data engineer but I also have experience in web development.',
+            'introductionOfMe': 'Experience both as independent and as a team, worked mostly as data engineer but also have experience in web development.',
             'passionateAboutDevelopment':'Passionate about development in Fullstack, Data and Automation.',
             'mobility': 'Mobile throughout Canada',
             'years': 'Years',
             'graduation': "2 years vocational degree in web development",
-            'researchDescription': 'I am looking for a job in the field of web development or data.',
+            'researchDescription': 'I am currently looking for a job in the field of web development or data.',
             'followMeOn':'Follow me on',
         },
         'experiences': {
