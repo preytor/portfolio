@@ -17,8 +17,8 @@
                                     <span *ngIf="!company.detailIsDisplayed">+</span><span *ngIf="company.detailIsDisplayed">-</span>{{'experiences.detail' | translate}}</button>
                             </div>
                             <p *ngIf="company.detailIsDisplayed">
-                                <span *ngFor="let mission of company.missions;let index = index">
-                                    <strong>{{'experiences.mission' | translate}} {{index+1}}: </strong>{{mission}} <br>
+                                <span *ngFor="let mission of company.missions">
+                                    <strong>* </strong>{{mission}} <br>
                                 </span>
                                 <strong>{{'experiences.technologies' | translate}}:</strong> {{company.technologies}}
                             </p>
