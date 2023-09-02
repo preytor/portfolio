@@ -19,19 +19,19 @@ export class ExperienceComponent {
   constructor(private _translationLoaderService: TranslationLoaderService, private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, spanish);
     this._translateService.onLangChange.subscribe(()=>{
-      if(localStorage.getItem("lang")=="en"){
-        this.companies=experiencesEn;
-      } else{
+      if(localStorage.getItem("lang")=="es"){
         this.companies=experiencesEs;
+      } else{
+        this.companies=experiencesEn;
       }
     });
   }
 
   ngOnInit(): void {
-    if(localStorage.getItem("lang")=="en"){
-      this.companies=experiencesEn;
-    } else{
+    if(localStorage.getItem("lang")=="es"){
       this.companies=experiencesEs;
+    } else{
+      this.companies=experiencesEn;
     }
   }
 
