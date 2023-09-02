@@ -40,8 +40,8 @@
                             <p class="card-text">{{project.technologies}}</p>
                             <div class="options">
                                 <a href="{{project.codeSourceUrl}}" target="_blank" target="_blank"
-                                    type="button" class="btn btn-primary">{{'projects.sourceCode' | translate}}</a>
-                                <a (click)="detailOnClick(project)" type="button" class="btn btn-primary"><span *ngIf="!project.detailIsDisplayed">+</span><span *ngIf="project.detailIsDisplayed">-</span>
+                                    type="button" class="btn btn-primary mb-3">{{'projects.sourceCode' | translate}}</a>
+                                <a (click)="detailOnClick(project)" type="button" class="btn btn-primary mb-3"><span *ngIf="!project.detailIsDisplayed">+</span><span *ngIf="project.detailIsDisplayed">-</span>
                                     {{'projects.detail' | translate}}</a>
                             </div>
                             <div *ngIf="project.detailIsDisplayed" [innerHTML]="project.detail" class="mt-3">
