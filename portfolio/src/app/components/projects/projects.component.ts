@@ -18,13 +18,20 @@ export class ProjectsComponent {
   constructor(private _translationLoaderService: TranslationLoaderService, private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, spanish);
     this._translateService.setDefaultLang('en');
+    this._translateService.onLangChange.subscribe(()=>{
+      if(localStorage.getItem("lang")=="es"){
+        this.projects=projectsEs;
+      } else{
+        this.projects=projectsEn;
+      }
+    });
   }
   
   ngOnInit(): void {
-    if(localStorage.getItem("lang")!="es"){
-      this.projects=projectsEn;
-    } else{
+    if(localStorage.getItem("lang")=="es"){
       this.projects=projectsEs;
+    } else{
+      this.projects=projectsEn;
     }
   }
 
