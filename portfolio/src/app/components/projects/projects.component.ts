@@ -21,7 +21,7 @@ export class ProjectsComponent {
   }
   
   ngOnInit(): void {
-    if(localStorage.getItem("lang")=="en"){
+    if(localStorage.getItem("lang")!="es"){
       this.projects=projectsEn;
     } else{
       this.projects=projectsEs;

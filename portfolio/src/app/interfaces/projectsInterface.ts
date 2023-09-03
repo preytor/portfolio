@@ -12,4 +12,5 @@ export interface projectsInterface {
     detail: string,
     codeSourceUrl: string,
     detailIsDisplayed: boolean,
+    livePreview: string | null,
 }

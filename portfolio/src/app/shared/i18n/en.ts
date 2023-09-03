@@ -53,6 +53,7 @@ export const locale = {
             'technologies': 'Technologies',
             'sourceCode': 'Source code',
             'detail': 'Detail',
+            'livePreview': 'Live preview',
         },
         'education': {
             'title': 'Education',
