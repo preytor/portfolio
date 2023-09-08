@@ -19,19 +19,19 @@ export class EducationComponent {
   constructor(private _translationLoaderService: TranslationLoaderService, private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, spanish);
     this._translateService.onLangChange.subscribe(()=>{
-      if(this._translateService.store.currentLang=="en"){
-        this.educations=educationsEn;
-      } else{
+      if(this._translateService.store.currentLang=="es"){
         this.educations=educationsEs;
+      } else{
+        this.educations=educationsEn;
       }
     });
   }
 
   ngOnInit(): void {
-    if(localStorage.getItem("lang")=="en"){
-      this.educations=educationsEn;
-    } else{
+    if(localStorage.getItem("lang")=="es"){
       this.educations=educationsEs;
+    } else{
+      this.educations=educationsEn;
     }
   }
 
