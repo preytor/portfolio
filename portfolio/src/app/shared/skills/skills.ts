@@ -22,6 +22,14 @@ export const skills = [
                 name: "Angular2",
                 src: "assets/images/skills/angular2.webp",
             },
+            {
+                name: "React",
+                src: "assets/images/skills/react.webp",
+            },
+            {
+                name: "NextJS",
+                src: "assets/images/skills/nextjs.webp",
+            },
         ],
         detailIsDisplayed: false,
     },
