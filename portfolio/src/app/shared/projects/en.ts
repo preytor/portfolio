@@ -6,15 +6,15 @@ export const projectsEn = [
         images: [
             {
                 title: 'Portfolio',
-                src: "assets/images/projects/cv/cv1.png",
+                src: "assets/images/projects/cv/cv1.webp",
             },
             {
                 title: 'Portfolio',
-                src: "assets/images/projects/cv/cv2.png",
+                src: "assets/images/projects/cv/cv2.webp",
             },
             {
                 title: 'Portfolio',
-                src: "assets/images/projects/cv/cv3.png",
+                src: "assets/images/projects/cv/cv3.webp",
             },
         ],
         url: 'https://github.com/preytor/portfolio',
@@ -30,15 +30,15 @@ export const projectsEn = [
         images: [
             {
                 title: 'Guess the draw',
-                src: "assets/images/projects/gtd/gtd1.png",
+                src: "assets/images/projects/gtd/gtd1.webp",
             },
             {
                 title: 'Guess the draw',
-                src: "assets/images/projects/gtd/gtd2.png",
+                src: "assets/images/projects/gtd/gtd2.webp",
             },
             {
                 title: 'Guess the draw',
-                src: "assets/images/projects/gtd/gtd3.png",
+                src: "assets/images/projects/gtd/gtd3.webp",
             },
         ],
         url: 'https://github.com/preytor/GuessTheDraw2',

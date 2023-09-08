@@ -4,23 +4,23 @@ export const skills = [
         technologies: [
             {
                 name: "HTML",
-                src: "assets/images/skills/html.png",
+                src: "assets/images/skills/html.webp",
             },
             {
                 name: "CSS",
-                src: "assets/images/skills/css.png",
+                src: "assets/images/skills/css.webp",
             },
             {
                 name: "TypeScript",
-                src: "assets/images/skills/typescript.png",
+                src: "assets/images/skills/typescript.webp",
             },
             {
                 name: "NodeJS",
-                src: "assets/images/skills/nodejs.png",
+                src: "assets/images/skills/nodejs.webp",
             },
             {
                 name: "Angular2",
-                src: "assets/images/skills/angular2.png",
+                src: "assets/images/skills/angular2.webp",
             },
         ],
         detailIsDisplayed: false,
@@ -30,23 +30,23 @@ export const skills = [
         technologies: [
             {
                 name: "Python",
-                src: "assets/images/skills/python.png",
+                src: "assets/images/skills/python.webp",
             },
             {
                 name: "Django",
-                src: "assets/images/skills/django.png",
+                src: "assets/images/skills/django.webp",
             },
             {
                 name: "Flask",
-                src: "assets/images/skills/flask.png",
+                src: "assets/images/skills/flask.webp",
             },
             {
                 name: "Java",
-                src: "assets/images/skills/java.png",
+                src: "assets/images/skills/java.webp",
             },
             {
                 name: "Spring",
-                src: "assets/images/skills/spring.png",
+                src: "assets/images/skills/spring.webp",
             }
         ],
         detailIsDisplayed: false,
@@ -56,11 +56,11 @@ export const skills = [
         technologies: [
             {
                 name: "SQL Server",
-                src: "assets/images/skills/sqlserver.png",
+                src: "assets/images/skills/sqlserver.webp",
             },
             {
                 name: "MongoDB",
-                src: "assets/images/skills/mongodb.png",
+                src: "assets/images/skills/mongodb.webp",
             },
         ],
         detailIsDisplayed: false,
@@ -70,15 +70,15 @@ export const skills = [
         technologies: [
             {
                 name: "Git",
-                src: "assets/images/skills/git.png",
+                src: "assets/images/skills/git.webp",
             },
             {
                 name: "Docker",
-                src: "assets/images/skills/docker.png",
+                src: "assets/images/skills/docker.webp",
             },
             {
                 name: "Kafka",
-                src: "assets/images/skills/kafka.png",
+                src: "assets/images/skills/kafka.webp",
             }
         ],
         detailIsDisplayed: false,
