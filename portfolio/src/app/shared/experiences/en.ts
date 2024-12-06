@@ -6,7 +6,7 @@ export const experiencesEn = [
         technologies: 'Python, Django, TailwindCSS, Docker, SQL Server',
         missions: [
             "Developed an Enterprise Resource Planning (ERP) System entirely from the ground up using Django.",
-            "Containerized the application within Docker for optimal scalability and deployment efficiency.",,
+            "Containerized the application within Docker for optimal scalability and deployment efficiency.",
             "The system relies on a SQL Server as a robust relational database.",
             "Used Nginx serving as a key component for traffic management.",
         ],
