@@ -1,5 +1,32 @@
 export const experiencesEn = [
     {
+        title: "Fullstack Engineer",
+        company: 'Fenix Capital Funding',
+        period: "Apr 2024 - Present",
+        technologies: 'Python, Django, TailwindCSS, Docker, SQL Server',
+        missions: [
+            "Developed an Enterprise Resource Planning (ERP) System entirely from the ground up using Django.",
+            "Containerized the application within Docker for optimal scalability and deployment efficiency.",,
+            "The system relies on a SQL Server as a robust relational database.",
+            "Used Nginx serving as a key component for traffic management.",
+        ],
+        detailIsDisplayed: false,
+        image: 'assets/images/fenix_capital_funding_logo.webp',
+    },
+    {
+        title: "Fullstack Engineer",
+        company: 'Freelance',
+        period: "Aug 2023 - Feb 2024 (7 months)",
+        technologies: 'Python, Django, TailwindCSS, Docker',
+        missions: [
+            "Developed and maintained web applications for various clients.",
+            "Collaborated with cross-functional teams to define project requirements and deliverables.",
+            "Implemented new features and optimized existing functionalities.",
+        ],
+        detailIsDisplayed: false,
+        image: '',
+    },
+    {
         title: "Business Application Engineer II",
         company: 'CDS, a Hewlett Packard Enterprise company',
         period: "Feb 2022 - Jul 2023 (1 year 6 months)",

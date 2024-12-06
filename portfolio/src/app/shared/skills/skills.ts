@@ -22,14 +22,6 @@ export const skills = [
                 name: "Angular2",
                 src: "assets/images/skills/angular2.webp",
             },
-            {
-                name: "React",
-                src: "assets/images/skills/react.webp",
-            },
-            {
-                name: "NextJS",
-                src: "assets/images/skills/nextjs.webp",
-            },
         ],
         detailIsDisplayed: false,
     },
@@ -43,10 +35,6 @@ export const skills = [
             {
                 name: "Django",
                 src: "assets/images/skills/django.webp",
-            },
-            {
-                name: "Flask",
-                src: "assets/images/skills/flask.webp",
             },
             {
                 name: "Java",
@@ -65,6 +53,10 @@ export const skills = [
             {
                 name: "SQL Server",
                 src: "assets/images/skills/sqlserver.webp",
+            },
+            {
+                name: "MySQL",
+                src: "assets/images/skills/mysql.webp",
             },
             {
                 name: "MongoDB",
